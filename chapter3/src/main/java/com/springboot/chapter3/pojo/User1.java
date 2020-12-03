@@ -5,7 +5,7 @@ package com.springboot.chapter3.pojo;
  * @version 1.0
  * @date 2020/12/3 19:24
  */
-public class User {
+public class User1 {
     private Long id;
     private String userName;
     private String note;
