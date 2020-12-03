@@ -1,13 +1,20 @@
 package com.springboot.chapter3.pojo;
 
+import org.springframework.beans.factory.annotation.Value;
+import org.springframework.stereotype.Component;
+
 /**
  * @author yyl
  * @version 1.0
  * @date 2020/12/3 19:24
  */
-public class User1 {
+@Component("user")
+public class User {
+    @Value("2")
     private Long id;
+    @Value("user_name_2")
     private String userName;
+    @Value("note_2")
     private String note;
 
     public Long getId() {
